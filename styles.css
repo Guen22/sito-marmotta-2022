@@ -1,0 +1,393 @@
+h1, h2, h3, h4, h5 {
+  color: #b20600;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+a {color: #FF5F00;}
+a:hover {color: #EEEEEE;}
+
+p {
+  font-size: 2vw;
+  color: #00092c;
+}
+
+body {
+  background-color: #EEEEEE;
+  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*********************************** HomePage *********************************/
+.macche {
+  position: relative;
+}
+
+.sfondo {
+background-color: #ffffff;
+}
+
+.sipario {
+  width: 100%;
+}
+
+.bolla {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.logo-hp {
+  width: 45%;
+  max-width: 250px;
+  min-width: 150px;
+  margin: 5% 5%;
+}
+
+.logologo {
+  place-items: center;
+  padding: 2%;
+}
+
+.title-hp {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3.5rem;
+}
+
+.myButton {
+	box-shadow:inset 0 1px 0 0 #cf866c;
+	background:linear-gradient(to bottom, #ff5e00 5%, #b20600 100%);
+	background-color:#ff5e00;
+	border-radius:10px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#eeeeee;
+	font-family:Georgia;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 24px;
+  margin: 5% 10%;
+	text-decoration:none;
+	text-shadow:0 1px 0 #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #b20600 5%, #ff5e00 100%);
+	background-color:#b20600;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.hidden {
+  display: none;
+}
+
+.exit {
+  text-align: center;
+}
+
+
+/*********************************** Testata *********************************/
+.header {
+  background-color: #00092C;
+}
+
+.allineamento {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contrary {
+  text-align: left;
+  vertical-align: middle;
+  padding: 1%;
+}
+
+/*********************************** Navigation Bar **************************/
+.navbar {
+  padding: 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #EEEEEE;
+  color: #00092C;
+  border-color: #dee2e6 #dee2e6 #EEEEEE;
+}
+
+.nav-link {
+  color: #FF5F00;
+}
+
+.nav-link:hover {
+  color: #00092C;
+  background-color: #FF5F00;
+}
+
+.fa-solid {
+  width: 30px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .barrette {
+    display: none;
+  }
+  p {
+    font-size: 3vw;
+  }
+}
+
+.collapse {
+  background-color: #cfd2cf;
+}
+
+/******************************** INTESTAZIONE ********************************/
+.hr-theme-slash-2 {
+  display: flex;
+  }
+
+.hr-line-lf {
+    width: 100%;
+    position: relative;
+    height: 1.5px;
+    margin: 15px;
+    background-image: linear-gradient(to left, #B20600 20%, #eeeeee);
+  }
+  .hr-line-rg {
+      width: 100%;
+      position: relative;
+      height: 1.5px;
+      margin: 15px;
+      background-image: linear-gradient(to right, #B20600 20%, #eeeeee);
+    }
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff5f00;
+    text-align: center;
+  }
+
+/*********************************** HOME *********************************/
+.cornicione {
+  padding: 5% 5%;
+}
+
+@media (max-width: 600px) {
+  .cornicione {
+    padding: 5% 0;
+  }
+}
+
+.card-title {
+  font-weight: bolder;
+  text-decoration: none;
+  text-align: left;
+}
+
+.card-title:hover {
+  color: #FF5F00;
+}
+
+.locandina {
+  width: 80%;
+  border: solid 7px #B20600;
+  border-radius: 50px 2px;
+}
+
+.cartaa {
+  border: none;
+  background-color: #eeeeee;
+}
+
+.card-body {
+  text-align: left;
+  padding: 3% 0;
+  border-style: none;
+  background: rgba(255, 95, 0, 0.11);
+}
+
+.mannaia {
+  padding-left: 3%;
+  border-bottom: solid 7px;
+  border-image: linear-gradient(to right, #B20600 20%, #eeeeee);
+  border-image-slice: 1;
+}
+
+.cardimage {
+  text-align: right;
+}
+
+.card-text {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.card-bodie {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.card-body-home {
+  text-align: left;
+  padding: 3% 0;
+  border-style: none;
+}
+
+/*************************************** STORIA *******************************/
+.cornice {
+  padding: 5% 10%;
+}
+
+.img-storia {
+  max-width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.quotation {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.quotationCen {
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.didasc {
+  font-style: italic;
+  text-align: center;
+}
+
+.ordine {
+  margin-bottom: 1rem;
+}
+
+/*********************************** commedie *******************************/
+.img-circle {
+  width: 150px;
+  margin-bottom: 5%;
+}
+
+.cella {
+  padding: 2%;
+  text-align: center;
+}
+
+.cartellone {
+  max-width: 70%;
+}
+
+.boxOne {
+  border: 3px solid #FF5f00;
+  border-radius: 25px;
+  margin: 0 5% 5%;
+  padding: 3%;
+  background: rgba(255, 95, 0, 0.1);
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.etichetta {
+  margin: 1% auto 0 auto;
+  max-width: 28%;
+  height: 50px;
+  background: #FF5F00;
+  color: #EEEEEE;
+  text-align: center;
+  border-radius: 18px 18px 0 0;
+}
+
+.giuseppe {
+  background: rgba(255, 95, 0, 0.11);
+}
+
+/*********************************** CONTATTACI *******************************/
+.social-img {
+  width: 45px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.linchs {
+  text-align: left;
+}
+
+.rechts {
+  text-align: right;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas: "img content";
+    margin-bottom: 1em;
+}
+
+.media.flipped {
+    grid-template-columns: 8fr 1fr;
+    grid-template-areas: "content img";
+}
+
+.media .immagine {
+    grid-area: img;
+}
+
+.media .testotesto {
+    grid-area: content;
+    padding: 10px;
+}
+
+.cornice-bis {
+  padding: 5% 25%;
+}
+
+.middlecentro {
+  text-align: center;
+  margin: 5% 3%;
+}
+
+.fa-3x {
+  margin: 4%;
+}
+
+.orangee {
+  color: #ff5f00;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.shemie {
+  margin: 2%;
+}
+
+/*************************************** FOOTER *******************************/
+.footer {
+  background-color: #00092C;
+  padding: 20px;
+  color: #FF5F00;
+  text-align: center;
+}
+
+.whitee {
+  color: #EEEEEE;
+}
+
+/*************************************** PROVA *******************************/

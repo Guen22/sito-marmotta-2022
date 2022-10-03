@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>La Marmotta</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d5a2ac5e2b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:ital,wght@0,300;0,400;1,900&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8" defer></script>
+
+</head>
+
+<body>
+  <div id="testata">
+    <div class="header row">
+      <div class="col-12 titolo">
+        <h1 class="contrary"><img class="social-img" src="images/VETTORIALE.png" alt="no img found"> Compagnia Teatrale La Marmotta</h1>
+      </div>
+      <div class="col-12 barra">
+        <nav class="navbar navbar-expand nav-tabs">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active icons-container" id="home-tab" data-toggle="tab" href="home.html" role="tab" aria-controls="home" aria-selected="true">
+              <i class="fa-solid fa-house-chimney-window"></i><span class="barrette"> Home</span></a>
+            <a class="nav-item nav-link icons-container" id="storia-tab" data-toggle="tab" href="storia.html" role="tab" aria-controls="profile" aria-selected="false">
+              <i class="fa-solid fa-landmark"></i><span class="barrette"> La Nostra Storia</span></a>
+            <a class="nav-item nav-link icons-container" id="commedie-tab" data-toggle="tab" href="commedie.html" role="tab" aria-controls="profile" aria-selected="false">
+              <i class="fa-solid fa-masks-theater"></i><span class="barrette"> Spettacoli</span></a>
+            <a class="nav-item nav-link icons-container" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact" aria-selected="false">
+              <i class="fa-solid fa-message"></i><span class="barrette"> Contattaci</span></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="cornicione">
+      <div class="intestazione">
+        <h1>Stasera a teatro</h1>
+      </div>
+
+      <br>
+
+      <!-- PER ORA NASCONDIAMO L'HR
+      <div class="hr-theme-slash-2">
+        <div class="hr-line-lf"></div>
+        <div class="hr-icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+        <div class="hr-line-rg"></div>
+      </div>
+    -->
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Ferro.jpg" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Classe di Ferro</h2>
+              </div>
+              <p class="card-text">
+                <b>SABATO 29 OTTOBRE 2022</b>
+                <br>Varese
+                <br><small>Salone Estense, Comune di Varese</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Ferro.jpg" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Classe di Ferro</h2>
+              </div>
+              <p class="card-text">
+                <b>SABATO 5 NOVEMBRE 2022</b>
+                <br>Cairate (Va)
+                <br><small>Cineteatro Padre Giacomo Martegani</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Gatta.jpg" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Gatta ci cova</h2>
+              </div>
+              <p class="card-text">
+                <b>VENERDI' 2 DICEMBRE 2022</b>
+                <br>Locate di Triulzi (Mi)
+                <br><small>Sala Teatro "L'Oasi"</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+        <div class="cartaa mb-3">
+          <div class="row g-0">
+            <div class="col-4 cardimage">
+              <img class="locandina" src="images/Dantical.png" alt="Dantical: img not found">
+            </div>
+            <div class="col-6">
+              <div class="card-body-home">
+                <div class="mannaia">
+                  <h2 class="card-title">Dantical</h2>
+                </div>
+                <p class="card-text">
+                  <b>VENERDI' 13 GENNAIO 2023</b>
+                  <br>Opera (Mi)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Ferro.jpg" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Classe di Ferro</h2>
+              </div>
+              <p class="card-text">
+                <b>SABATO 18 FEBBRAIO 2023</b>
+                <br>San Giorgio Bigarello (Mn)
+                <br><small>Centro Culturale San Giorgio</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Berretto.png" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Il Berretto a Sonagli</h2>
+              </div>
+              <p class="card-text">
+                <b>SABATO 4 MARZO 2023</b>
+                <br>Sannazaro de' Burgondi (Pv)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Berretto.png" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Il Berretto a Sonagli</h2>
+              </div>
+              <p class="card-text">
+                <b>SABATO 25 MARZO 2023</b>
+                <br>Gallarate (Va)
+                <br><small>Teatro Nuovo, Madonna in Campagna</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="cartaa mb-3">
+        <div class="row g-0">
+          <div class="col-4 cardimage">
+            <img class="locandina" src="images/Berretto.png" alt="Classe: img not found">
+          </div>
+          <div class="col-6">
+            <div class="card-body-home">
+              <div class="mannaia">
+                <h2 class="card-title">Il Berretto a Sonagli</h2>
+              </div>
+              <p class="card-text">
+                <b>VENERDI' 13 MAGGIO 2023</b>
+                <br>Valmadrera (Lc)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      © 2022 Compagnia Teatrale La Marmotta APS<br>
+      <small class="whitee">via G. Galilei 30, 21054 - Fagnano Olona (Va)<br>
+        iscrizione registo APS provincia VA, ambito culturale n.420</small>
+    </div>
+
+  </div>
+  <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+</body>
+
+</html>
