@@ -139,9 +139,6 @@ background-color: #ffffff;
 }
 
 @media (max-width: 600px) {
-  .barrette {
-    display: none;
-  }
   p {
     font-size: 3vw;
   }
@@ -335,14 +332,8 @@ background-color: #ffffff;
 
 .media {
     display: grid;
-    grid-template-columns: 1fr 8fr;
     grid-template-areas: "img content";
     margin-bottom: 1em;
-}
-
-.media.flipped {
-    grid-template-columns: 8fr 1fr;
-    grid-template-areas: "content img";
 }
 
 .media .immagine {
